@@ -1,0 +1,94 @@
+hr.side {
+  border: solid;
+  border-width: 3px 0 0;
+}
+
+.introduction {
+  margin: auto;
+  width: 60%;
+  padding-top: 2cm;
+  font-weight: 900;
+  font-size: 1.8em;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+
+body {
+  background: url("http://images6.alphacoders.com/571/571919.jpg");
+  background-position: 0px 900px;
+}
+
+.front-page {
+  height: 700px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: url("http://wallpoper.com/images/00/41/64/31/touhou-forest_00416431.jpg") no-repeat center fixed; 
+  background-size: cover;
+  background-position: 0px 200px;
+  opacity: 0.8;
+}
+
+.calculator {
+  margin: auto;
+  width: 450px;
+  height: 455px;
+  border: solid;
+  border-style: dashed;
+}
+
+.display {
+  border: solid;
+  width: 60%;
+  height: 50px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #DCDCDC;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background: #ccc;
+    font-size: 20px;
+    font-family: Monospace;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  color: white;
+  background: rgba(0, 0, 0, 0.9);
+  transition: 0.2s;
+}
+
+.b1:hover, .b4:hover, .b7:hover, .b0:hover {
+  color: pink;
+}
+
+.b2:hover, .b5:hover, .b8:hover, .b_:hover {
+  color: orange;
+}
+
+.b3:hover, .b6:hover, .b9:hover, .beq:hover {
+  color: red;
+}
+
+.bdiv:hover, .bmul:hover, .bmin:hover, .badd:hover {
+  color: yellow;
+}
+
+h4 {
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.bclear {
+  width: 300px;
+  height: 50px;
+}
