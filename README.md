@@ -6,4 +6,4 @@ The many other features on the calculator also include:
 - keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output. 
 - a button that outputs "It's Casey!"
 
-
+# http://case-y.github.io/jscalc/
